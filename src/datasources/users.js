@@ -115,8 +115,6 @@ class UserAPI {
           },
         })) || [];
 
-      console.log('meals', meals);
-
       const message = `Successfully find ${userId} user`;
       const meta = generateMetaResponse(message);
       return { meals, meta };
